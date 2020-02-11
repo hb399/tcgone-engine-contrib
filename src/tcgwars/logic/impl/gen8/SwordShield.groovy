@@ -2273,8 +2273,8 @@ public enum SwordShield implements LogicCardInfo {
 			case SANDACONDA_110:
 			return evolution (this, from:"Silicobra", hp:HP130, type:F, retreatCost:2) {
 				weakness G
-				bwAbility "", {
-					text ""
+				bwAbility "Sand Sac", {
+					text "This Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
 					actionA {
 					}
 				}
@@ -2522,8 +2522,8 @@ public enum SwordShield implements LogicCardInfo {
 			case TOXICROAK_124:
 			return evolution (this, from:"Croagunk", hp:HP110, type:D, retreatCost:1) {
 				weakness F
-				bwAbility "", {
-					text ""
+				bwAbility "More Poison", {
+					text "Put 2 more damage counters on your opponent's Poisoned Pokémon during Pokémon Checkup."
 					actionA {
 					}
 				}
@@ -2589,7 +2589,7 @@ public enum SwordShield implements LogicCardInfo {
 			return evolution (this, from:"GalarianMeowth", hp:HP120, type:M, retreatCost:2) {
 				weakness R
 				resistance G, MINUS20
-				bwAbility "", {
+				bwAbility "Steely Spirit", {
 					text "Your [M] Pokémon's attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance)."
 					actionA {
 					}
